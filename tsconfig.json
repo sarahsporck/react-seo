@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "module": "ES2022",
+        "target": "ES2020",
+        "moduleResolution": "Node",
+        "jsx": "react",
+        "outDir": "dist",
+        "lib": ["DOM", "ES5", "ES6"],
+        "isolatedModules": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "skipLibCheck": true,
+        "types": ["node", "react"]
+    },
+    "include": ["./src/*", "./example/*"],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
